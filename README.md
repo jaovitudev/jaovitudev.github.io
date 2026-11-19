@@ -2,7 +2,7 @@
 
 Repositório oficial da página pessoal e portfólio web de **jaovitudev**, publicado por meio do **GitHub Pages**.
 
-- **Site no ar:** [https://github.io](https://github.io)
+- **Site no ar:** [https://github.io](https://jaovitudev.github.io)
 - **Perfil no GitHub:** [https://github.com/jaovitudev](https://github.com/jaovitudev)
 
 ---
