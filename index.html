@@ -5,14 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>João Victor | Desenvolvedor</title>
-
     <meta name="description" content="Portfólio de João Victor. Desenvolvedor em formação com foco em Python, automação e desenvolvimento de aplicações.">
-
     <meta name="theme-color" content="#080b14">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
     <style>
@@ -56,8 +53,16 @@
             pointer-events: none;
             z-index: -1;
             background:
-                radial-gradient(circle at 15% 10%, rgba(99, 102, 241, 0.12), transparent 35%),
-                radial-gradient(circle at 85% 45%, rgba(34, 211, 238, 0.06), transparent 30%);
+                radial-gradient(
+                    circle at 15% 10%,
+                    rgba(99, 102, 241, 0.12),
+                    transparent 35%
+                ),
+                radial-gradient(
+                    circle at 85% 45%,
+                    rgba(34, 211, 238, 0.06),
+                    transparent 30%
+                );
         }
 
         a {
@@ -167,7 +172,11 @@
         }
 
         .gradient-text {
-            background: linear-gradient(90deg, var(--primary-light), var(--cyan));
+            background: linear-gradient(
+                90deg,
+                var(--primary-light),
+                var(--cyan)
+            );
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
@@ -273,7 +282,10 @@
             border: 1px solid var(--border);
             border-radius: var(--radius);
             padding: 28px;
-            transition: transform 0.3s, border-color 0.3s, background 0.3s;
+            transition:
+                transform 0.3s,
+                border-color 0.3s,
+                background 0.3s;
         }
 
         .project-card:hover {
@@ -437,7 +449,9 @@
         .reveal {
             opacity: 0;
             transform: translateY(20px);
-            transition: opacity 0.7s ease, transform 0.7s ease;
+            transition:
+                opacity 0.7s ease,
+                transform 0.7s ease;
         }
 
         .reveal.visible {
@@ -557,9 +571,9 @@
         </div>
     </header>
 
-    <!-- HERO -->
-
     <main>
+
+        <!-- HERO -->
 
         <section class="hero" id="inicio">
             <div class="container">
@@ -789,9 +803,10 @@
                     <div class="about-text reveal">
 
                         <p>
-                            Meu nome é <span class="about-highlight">
-                            João Victor</span> e estou construindo
-                            minha jornada na área de desenvolvimento.
+                            Meu nome é
+                            <span class="about-highlight">João Victor</span>
+                            e estou construindo minha jornada na área
+                            de desenvolvimento.
                         </p>
 
                         <p>
@@ -862,10 +877,6 @@
                         >
                             joao.v.c.m1709@gmail.com
                         </a>
-
-                        <span style="display:block; margin-top:8px; color:var(--text-secondary);">
-                            WhatsApp: (11) 96102-4993
-                        </span>
                     </p>
 
                     <div class="hero-buttons" style="justify-content:center;">
@@ -884,15 +895,6 @@
                             class="button button-secondary"
                         >
                             Enviar e-mail ✉
-                        </a>
-
-                        <a
-                            href="https://wa.me/5511961024993"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="button button-secondary"
-                        >
-                            WhatsApp ↗
                         </a>
 
                         <a
@@ -945,6 +947,7 @@
     <!-- JAVASCRIPT -->
 
     <script>
+
         // Ano automático
 
         document.getElementById("year").textContent =
@@ -1035,6 +1038,7 @@
             });
 
         }
+
     </script>
 
 </body>
